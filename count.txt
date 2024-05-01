@@ -1,0 +1,3 @@
+https://www.enterprise.ca  : 23
+https://www.budget.ca :  21
+https://www.avis.ca :  19
