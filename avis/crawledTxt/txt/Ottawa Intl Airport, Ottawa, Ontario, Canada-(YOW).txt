@@ -1,0 +1,143 @@
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Intermediate SUV
+Ford Escape or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+1 Small Bag
+C$62.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Economy
+Mitsubishi Mirage or similar
+4 Door
+4 seats
+A/C
+Automatic
+1 Large Bag
+1 Small Bag
+C$55.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Compact
+Nissan Versa or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$55.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Full-Size Pickup
+Ford F150 Pick Up or similar
+4 Door
+5 seats
+A/C
+Automatic
+4 Large Bags
+
+C$55.10
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Intermediate
+Hyundai Elantra or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$58.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Mystery Car
+Mystery Car or similar
+
+
+A/C
+Automatic
+
+
+C$60.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Standard
+Chevrolet Malibu or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$62.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Full-Size
+Chevrolet Malibu or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$62.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Luxury
+Chrysler 300S or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$65.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Standard SUV
+Ford Edge or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$65.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Avis Signature Series
+Audi Q5 or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$75.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Full-Size SUV
+Ford Explorer or similar
+4 Door
+7 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$145.00
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Minivan
+Dodge Grand Caravan or similar
+4 Door
+7 seats
+A/C
+Automatic
+3 Large Bags
+2 Small Bags
+C$145.00
+

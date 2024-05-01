@@ -1,0 +1,168 @@
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Intermediate SUV
+Ford Escape or similar
+C$92.11 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+22 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Compact
+Nissan Versa or similar
+C$64.13 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+29 MPG
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Economy
+Mitsubishi Mirage or similar
+C$65.95 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+35 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Intermediate
+Hyundai Elantra or similar
+C$66.55 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Standard
+Chevrolet Malibu or similar
+C$72.61 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Full-Size
+Chevrolet Malibu or similar
+C$72.61 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+22 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Mystery Car
+Mystery Car May Be Gas Hybrid or EV or similar
+C$78.64 TotalSmoke Free
+2/4 Doors
+4 seats
+Automatic
+A/C
+
+
+
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Full-Size Pickup Truck
+Dodge Ram 1500 or similar
+C$81.22 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+16 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Premium
+Chrylser 300 or similar
+C$87.27 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+23 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Luxury
+Chrylser 300S or similar
+C$93.32 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+21 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Minivan
+Dodge Grand Caravan or similar
+C$93.32 TotalSmoke Free
+5 Doors
+7 seats
+Automatic
+A/C
+3 Large Bags
+2 Small Bags
+17 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Standard SUV
+Ford Edge or similar
+C$93.32 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+20 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Intermediate Elite SUV
+BMW X1 or similar
+C$98.17 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+22 mpg
+
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Full-Size SUV
+Ford Explorer or similar
+C$162.31 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+20 mpg
+

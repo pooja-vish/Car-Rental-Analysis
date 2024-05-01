@@ -1,0 +1,252 @@
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Intermediate SUV
+Ford Escape or similar
+C$69.26 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+22 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Economy
+Mitsubishi Mirage or similar
+C$54.85 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+35 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Compact
+Nissan Versa or similar
+C$54.85 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+29 MPG
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Mystery Car
+Mystery Car May Be Gas Hybrid or EV or similar
+C$56.17 TotalSmoke Free
+2/4 Doors
+4 seats
+Automatic
+A/C
+
+
+
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Intermediate
+Hyundai Elantra or similar
+C$57.25 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard
+Chevrolet Malibu or similar
+C$60.85 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Full-Size
+Chevrolet Malibu or similar
+C$60.85 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+22 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Full-Size Pickup Truck
+Dodge Ram 1500 or similar
+C$71.66 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+16 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Special
+Hyundai Elantra w/ Winter Tires or similar
+C$84.88 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Minivan
+Dodge Grand Caravan or similar
+C$89.68 TotalSmoke Free
+5 Doors
+7 seats
+Automatic
+A/C
+3 Large Bags
+2 Small Bags
+17 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard SUV
+Ford Edge or similar
+C$89.68 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+20 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Special Sport
+Jeep Wrangler or similar
+C$89.68 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+17 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Premium
+Chrylser 300 or similar
+C$95.68 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+23 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Intermediate Elite SUV
+BMW X1 or similar
+C$99.29 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+22 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Luxury
+Chrylser 300S or similar
+C$101.69 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+21 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard Elite
+Audi Q5 or similar
+C$101.69 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+24 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Full-Size SUV
+Ford Explorer or similar
+C$107.69 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+20 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard Sport
+BMW 330i X Drive or similar
+C$113.70 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+22 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Luxury Special Offer
+BMW X5 or similar
+C$137.72 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+18 mpg
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard Elite Electric
+Tesla Model Y or similar
+C$137.72 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Premium SUV
+GMC Yukon or similar
+C$158.63 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+3 Large Bags
+2 Small Bags
+15 mpg
+

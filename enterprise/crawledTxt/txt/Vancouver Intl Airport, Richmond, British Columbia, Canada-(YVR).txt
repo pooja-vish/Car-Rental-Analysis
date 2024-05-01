@@ -1,0 +1,160 @@
+You Click. We Pick.
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Vehicle determined upon pick-up (Compact or Larger) or similar
+Automatic
+5 People
+2 Bags
+59.17
+
+Economy
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Chevrolet Spark or similar
+Automatic
+4 People
+2 Bags
+59.47
+
+Compact
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Nissan Versa or similar
+Automatic
+5 People
+2 Bags
+59.47
+
+Intermediate
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Kia Forte or similar
+Automatic
+5 People
+3 Bags
+62.28
+
+Standard
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Volkswagen Jetta or similar
+Automatic
+5 People
+4 Bags
+66.27
+
+Compact SUV
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Toyota C-HR or similar
+Automatic
+5 People
+3 Bags
+66.77
+
+Full Size
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Toyota Camry or similar
+Automatic
+5 People
+4 Bags
+70.28
+
+Compact SUV AWD
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Hyundai Kona AWD or similar
+Automatic
+5 People
+3 Bags
+73.55
+
+Intermediate SUV
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Toyota RAV4 or similar
+Automatic
+5 People
+4 Bags
+74.28
+
+1/2 Ton Pickup
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Chevrolet Siverado 1500 Crew Cab or similar
+Automatic
+5 People
+4 Bags
+74.28
+
+Standard SUV
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Ford Edge or similar
+Automatic
+5 People
+5 Bags
+93.14
+
+Premium
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Nissan Maxima or similar
+Automatic
+5 People
+4 Bags
+97.30
+
+Premium Special
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Audi A3 and BMW 2 Series Gran Coupe or similar
+Automatic
+5 People
+5 Bags
+97.30
+
+7 Passenger Minivan
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Dodge Grand Caravan or similar
+Automatic
+7 People
+5 Bags
+101.9
+
+Full Size Elite
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Audi A5 Sportback or similar
+Automatic
+5 People
+3 Bags
+102.3
+
+Luxury
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Audi A4 and BMW 3 Series or similar
+Automatic
+5 People
+4 Bags
+107.3
+
+Premium Crossover
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Dodge Durango or similar
+Automatic
+7 People
+3 Bags
+112.9
+
+Jeep Wrangler 4 door
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Jeep Wrangler Unlimited or similar
+Automatic
+5 People
+5 Bags
+119.7
+
+Full Size SUV
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Chevy Tahoe or similar
+Automatic
+7 People
+3 Bags
+122.0
+
+Premium SUV
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Chevy Suburban or similar
+Automatic
+8 People
+7 Bags
+142.0
+

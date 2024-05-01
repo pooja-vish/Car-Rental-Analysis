@@ -1,0 +1,184 @@
+Compact SUV
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Toyota C-HR or similar
+Automatic
+5 People
+3 Bags
+67.46
+
+Small Pickup
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Chevy Colorado or similar
+Automatic
+4 People
+3 Bags
+73.81
+
+1/2 Ton Pickup
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Chevrolet Siverado 1500 Crew Cab or similar
+Automatic
+5 People
+4 Bags
+75.40
+
+Economy
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Chevrolet Spark or similar
+Automatic
+4 People
+2 Bags
+76.56
+
+You Click. We Pick.
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Vehicle determined upon pick-up (Compact or Larger) or similar
+Automatic
+5 People
+2 Bags
+76.61
+
+Full Size
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Toyota Camry or similar
+Automatic
+5 People
+4 Bags
+77.11
+
+Standard
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Volkswagen Jetta or similar
+Automatic
+5 People
+4 Bags
+77.18
+
+Intermediate
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Kia Forte or similar
+Automatic
+5 People
+3 Bags
+77.63
+
+Compact
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Nissan Versa or similar
+Automatic
+5 People
+2 Bags
+77.73
+
+Intermediate SUV
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Toyota RAV4 or similar
+Automatic
+5 People
+4 Bags
+79.37
+
+Premium
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Nissan Maxima or similar
+Automatic
+5 People
+4 Bags
+79.61
+
+Premium Special
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Audi A3 and BMW 2 Series Gran Coupe or similar
+Automatic
+5 People
+5 Bags
+79.61
+
+Luxury
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Audi A4 and BMW 3 Series or similar
+Automatic
+5 People
+4 Bags
+85.86
+
+Full Size Elite
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Audi A5 Sportback or similar
+Automatic
+5 People
+3 Bags
+90.15
+
+Standard SUV
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Ford Edge or similar
+Automatic
+5 People
+5 Bags
+92.58
+
+Standard Elite SUV
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Audi Q3 or similar
+Automatic
+5 People
+3 Bags
+96.17
+
+Premium Elite SUV
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Cadillac XT5 or similar
+Automatic
+5 People
+4 Bags
+98.74
+
+7 Passenger Minivan
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Dodge Grand Caravan or similar
+Automatic
+7 People
+5 Bags
+100.0
+
+Premium Crossover
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Dodge Durango or similar
+Automatic
+7 People
+3 Bags
+101.8
+
+8 Passenger Minivan
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Toyota Sienna or similar
+Automatic
+8 People
+5 Bags
+115.0
+
+Full Size SUV
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Chevy Tahoe or similar
+Automatic
+7 People
+3 Bags
+126.7
+
+American Muscle Car
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Ford Mustang GT, Chevrolet Camaro SS or similar
+Automatic
+4 People
+2 Bags
+196.3
+
+Convertible
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Ford Mustang or similar
+Automatic
+4 People
+2 Bags
+202.3
+

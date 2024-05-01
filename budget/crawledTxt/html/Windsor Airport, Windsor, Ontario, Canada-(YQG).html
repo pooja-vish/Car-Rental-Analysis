@@ -1,0 +1,2182 @@
+
+<div class="step2dtl">
+		<div class="clear"></div>
+		<!---->
+
+		<!---->
+		
+
+		<!---->
+
+		
+
+		
+		<!---->
+		
+
+
+		<!---->
+		
+
+		
+
+
+		
+		<!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!----><section ng-if="$first">
+				 <!----> 
+				<!---->
+				<!---->
+				
+				<!---->
+				
+				<!---->
+				<!---->
+			</section><!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2019/mitsubishi/2019-mitsubishi-mirage-se-5door-hatchback-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="/content/dam/cars/xl/2019/mitsubishi/2019-mitsubishi-mirage-se-5door-hatchback-white.png" car-model="car" car-class="vehicle-img" car-height="340" car-width="510" lazyloaded="true">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 4 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 1  Large  Bag
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 1  Small  Bag
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 35 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Economy</h3>
+            <p class="featurecartxt similar-car">Mitsubishi Mirage or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_AQA"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 4 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>1 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>73</span>.83<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_AQA fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Economy</h4>
+                <p class="feat-car-text-mob">Mitsubishi Mirage or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 4 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1  Large  Bag</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 1  Small  Bag</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 35  35 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_3" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2020/nissan/2020-nissan-versa-sv-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="/content/dam/cars/xl/2020/nissan/2020-nissan-versa-sv-sedan-white.png" car-model="car" car-class="vehicle-img" car-height="340" car-width="510" lazyloaded="true">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 1  Large  Bag
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 29 MPG
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Compact</h3>
+            <p class="featurecartxt similar-car">Nissan Versa or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_AQB"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>73</span>.83<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_AQB fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Compact</h4>
+                <p class="feat-car-text-mob">Nissan Versa or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1  Large  Bag</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 29  29 MPG</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_4" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2019/hyundai/2019-hyundai-elantra-ltd-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 1  Large  Bag
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 28 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Intermediate</h3>
+            <p class="featurecartxt similar-car">Hyundai Elantra or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_AQC"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>73</span>.83<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_AQC fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Intermediate</h4>
+                <p class="feat-car-text-mob">Hyundai Elantra or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1  Large  Bag</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 28  28 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_5" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!----><div ng-if="($index == vm.response.showPromotion.index) &amp;&amp; (vm.response.showPromotion.section == 'additional')">
+				
+
+
+
+
+
+			</div><!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/chevrolet/2021-chevrolet-malibu-lt-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 1  Large  Bag
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 28 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Standard</h3>
+            <p class="featurecartxt similar-car">Chevrolet Malibu or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_AQD"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>77</span>.61<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_AQD fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Standard</h4>
+                <p class="feat-car-text-mob">Chevrolet Malibu or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1  Large  Bag</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 28  28 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_6" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/chevrolet/2021-chevrolet-malibu-lt-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 1  Large  Bag
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 22 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Full-Size</h3>
+            <p class="featurecartxt similar-car">Chevrolet Malibu or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_AQE"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>77</span>.61<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_AQE fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Full-Size</h4>
+                <p class="feat-car-text-mob">Chevrolet Malibu or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1  Large  Bag</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 22  22 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_7" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2020/ford/2020-ford-escape-sel-suv-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 1  Large  Bag
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 1  Small  Bag
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 22 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Intermediate SUV</h3>
+            <p class="featurecartxt similar-car">Ford Escape or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_ARF"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>1 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>86</span>.39<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_ARF fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Intermediate SUV</h4>
+                <p class="feat-car-text-mob">Ford Escape or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 1  Large  Bag</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 1  Small  Bag</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 22  22 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_8" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/ford/2021-ford-edge-titanium-suv-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 2  Large  Bags
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 20 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Standard SUV</h3>
+            <p class="featurecartxt similar-car">Ford Edge or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_AQW"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 2</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>88</span>.91<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_AQW fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Standard SUV</h4>
+                <p class="feat-car-text-mob">Ford Edge or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 2  Large  Bags</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 20  20 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_9" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!----><!----><div ng-if="vm.response.bundleFlow!=='INBOUND' &amp;&amp; vm.response.additionalVehicles.length>0" ng-repeat="car in vm.response.additionalVehicles | orderBy : vm.pageControl.orderByAvailable track by $index">
+			<!---->
+
+			<!---->
+			<!---->
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/chrysler/2021-chrysler-300-s-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 4 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 5 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 2  Large  Bags
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 21 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl">
+            <h3 ng-bind="car.carGroup">Luxury</h3>
+            <p class="featurecartxt similar-car">Chrylser 300S or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_ARH"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 2</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl singlePayOptions col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!----><div class="paybtndtl col-lg-12 col-sm-6 col-xs-12 onlyPaynow" ng-class="{'onlyPaynow': car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)}" ng-if="car.displayRate.displaySelect &amp;&amp; !(car.contractRate &amp;&amp; vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowCreate)">
+            <div class="paynow col-lg-6 col-xs-6 pay-btn-center" ng-class="{'pay-btn-center':(vm.reservationModel.displayControls.reservation ===carRentalConstant.resFlowModify || car.displayRate.displaySelect),'bestRateCampaign-mob':(vm.mvtFlag===true)}">
+        <!--BRG MVT Campaign Mob Starts-->
+        <!---->
+      <!--BRG MVT Campaign Mob Ends--> 
+      <!---->
+  
+  <p class="payamntr" amount-decorator="car" show-rate-plan="(brand==='payless')?true:false" rate-plan="car.payLaterRate.ratePlan" show-total-amount="vm.displayTotalRate" vehicle-amount="(brand==='payless'?(car.payLaterRate.rateAmount?car.payLaterRate.rateAmount:car.payNowRate.rateAmount):(car.payLaterRate.amount?car.payLaterRate.amount:car.payNowRate.amount))" currency-symbol="car.payLaterRate? car.payLaterRate.currencySymbol :car.payNowRate.currencySymbol"><!----><price ng-if="checkVisible() &amp;&amp; !isLmbRequest &amp;&amp; !frUsFlag(currencySymbol)"><sup class="currencySymbol" ng-bind-html="currencySymbol">C$</sup><span>90</span>.16<!----><span class="total" ng-if="showTotalAmount &amp;&amp; isNotPayless() &amp;&amp; checkForTruckDomain()" ng-bind="getTotalLabel()"> Total</span><!----><!----></price><!----><!----><!----></p>
+  
+  
+        <!---->
+              <!---->
+              <a class="select-contract btn btn-primary-avis" href="javascript:void(0)" id="res-vehicles-select" ng-click="vm.selectVehicle(car,(!car.payLaterRate))">Select</a>
+            </div>
+          </div><!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border ng-hide" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_ARH fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Luxury</h4>
+                <p class="feat-car-text-mob">Chrylser 300S or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 5 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 4 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 2  Large  Bags</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 21  21 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_10" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			<!---->			
+		</div><!----><!---->
+		
+		
+
+		
+		<!---->
+		
+
+
+		
+
+		
+		<!----><div ng-if="vm.response.onRequestVehicles.length > 0">
+			<div class="clear"></div>
+			<div class="sectsptr"></div>
+			<div class="mod-veh-rel-text for-reduce-pad-topg avilablecar">
+				<h2 class="req-car">On Request Vehicles</h2>
+				<p class="inquire-info">These vehicles have limited availability, please contact the location at (1) 519-969-5611 for details.</p>
+			</div>	
+			<!----><div ng-repeat="car in vm.response.onRequestVehicles">
+			<!----><div ng-include=" 'carTemplate.html' ">
+  <section>
+     <div class="row avilablecar available-car-box" ng-class="{'upgrade-coupon':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}">
+         <!---->
+    <div class="step2dtl-avilablecar-section">
+        <div class="col-sm-7 avlcarimage" ng-class="{'partner-usaa':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}">
+          <div class="col-lg-7 col-sm-6 col-xs-12 avlcarimagetab" ng-click="(vm.displayFeatures || vm.premiumDisplayFeatures) ? vm.vehiclepremiumInfo($event) : vm.vehicleInfo($event)">
+            <!---->
+            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2019/dodge/2019-dodge-grand-caravan-sxt-minivan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510">  
+        <!---->
+            <!--/* div with Car detail Information start*/-->
+            <div class="available-car-facilities">
+              <div class="available-car-fac hidden" ng-class="{'premuim-features':(vm.displayFeatures || vm.premiumDisplayFeatures)}">
+                <!---->
+                <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="icon-smoke-free">
+                    <span></span> Smoke Free
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-door-feat">
+                    <span></span> 5 Doors
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-seats-feat">
+                    <span></span> 7 seats
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-automatic-feat">
+                    <span></span> Automatic
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="ac-seats-feat">
+                    <span></span> A/C
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat">
+                    <span></span> 3  Large  Bags
+                </span><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small">
+                    <span></span> 2  Small  Bags
+                </span><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; features.cssClass &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="mpg-seats-feat">
+                    <span></span> 17 mpg
+                </span><!----><!---->
+                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+            </div>
+            <!--/* div with Car detail Information end*/-->
+          </div>
+          <div ng-class="{'dualPayOption':!car.displayRate.displaySelect}" class="col-sm-5 col-xs-12 avilcardtl dualPayOption">
+            <h3 ng-bind="car.carGroup">Minivan</h3>
+            <p class="featurecartxt similar-car">Dodge Grand Caravan or similar 
+              <a class="btn info-display-position" id="res-vehicleInfo" data-toggle="modal" data-target=".cou-veh-inf_V"><span class="s-icon res-helpIcon hidden-lg"></span>
+                  </a>
+            </p>
+            <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' " class="tableDiv vehicle-features">
+              <!---->
+              <!---->
+              <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 7 </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 3</span><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span>2 </span><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <div>
+              <!---->
+              <!---->
+             <!----></div>
+            </div><!---->
+       <!---->
+        <!----><p ng-if="car.automaticCaption" ng-bind="car.automaticCaption">Automatic Transmission</p><!---->
+        <!---->
+        <!---->
+            <!--/* Coupon indicator at each level */-->
+            <!---->
+            <!---->
+      <!--/* AWD indicator at each level */-->
+  
+             <!---->
+        <!--/*   Mobile exclusive rates HTML START */-->
+          <!---->
+             <!--/*   Mobile exclusive rates HTML END */--> 
+        <!--/* Mileage indicator at each level */-->
+            <!----><section ng-if="car.mpg">
+              <!---->
+            </section><!---->
+  
+            <!--/* seats indicator at each level */-->
+            <!---->
+        <!---->
+            <!----><a class="vehicleinfo avai-vehicle-info-anc-tag" id="res-vehicles-details" ng-if="!(vm.displayFeatures || vm.premiumDisplayFeatures)" ng-click="vm.vehicleInfo($event)">
+                <!--Vehicle Info -->
+                View Vehicle Information
+                </a><!---->
+                <!---->
+          </div>
+          <!--/*mobile Vehicle information modal Start  */-->
+  
+          <!--/*mobile Vehicle information modal end */ -->
+        </div>
+   
+  
+        <div ng-class="{'singlePayOptions':car.displayRate.displaySelect, 'paybtndtl amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us')),'col-sm-4':vm.displayFeatures, 'col-sm-5':!vm.displayFeatures, 'partner-personalization':(vm.personalizedPartnerName == 'USAA' || vm.personalizedPartnerName == 'AARP')}" class="col-xs-12 ftrcardtl ftravlcardtl col-sm-5">
+          <!--/* START OF PREPAY ONLY   */-->
+          <!-- AARP GiftCard Banner-Starts 
+           <div class="aarp-row-content extraAvailCar" ng-if="(vm.domain.toLowerCase() == 'us' || vm.domain.toLowerCase() == 'ca') && vm.response.reservationSummary.memberCreditEligible">
+                  <div class="aarp-row-img" ng-if="vm.aarpImagePath">
+                <img class="img-responsive aarp-gift-img" ng-src="{{vm.aarpImagePath}}" alt="AARP Gift Card" />
+                      </div>
+                  <p>
+                     <span class="aarp-row-large">AARP Discount Applied</span>
+                  </p>	
+          </div>
+        <!-- AARP GiftCard Banner-Ends -->
+        <!---->
+      <!---->
+    
+          <div class="paybtndtl col-lg-12 col-xs-12" ng-class="{'amazon-gc-wrapper':((vm.response.reservationSummary.awdNumber === carRentalConstant.amazonBenefits) &amp;&amp; (vm.domain === 'us'))}">
+  
+        <!-- Amazon GiftCard Banner-Starts IMT 522-->
+  
+        <!---->
+         <!-- Amazon GiftCard Banner-Ends IMT 522-->
+          <!-- HTML for USAA strikethrough prices START-->
+          <!---->
+         <!-- HTML for USAA strikethrough prices END-->
+  
+            <!---->
+            <!---->
+      <!--HTML for Uplift Text START  */-->
+      <!---->
+      <!--HTML for Uplift Text END-->
+          </div>
+          <!--/*END OF PREPAY ONLY  */-->
+           <!--/*START OF PREPAY ONLY  */-->
+          <!---->
+          <!--/*END OF PREPAY ONLY  */-->
+  
+          <!---/* START OF CONTRACT RATES */-->
+         <!---->
+  
+        <!---/* END OF CONTRACT RATES */-->
+        </div>
+      </div>
+      </div>
+      <div class="clear border ng-hide" ng-hide="$last" ng-class="{'upgradeBanner':vm.displayCouponBanner &amp;&amp; car.upgradeApplicable}"></div>
+      <!--/* Modal for the car : START */-->
+      <div class="modal featVehiInfoForMob cou-veh-inf_V fade" role="dialog">
+        <div class="modal-dialog clearfix">
+          <!--/* Modal content start*/-->
+          <div class="modal-content">
+            <div class="modal-header vehRedBg-for-mob">
+              <span class="close-icon-black pull-right gap-btwn-two-close" aria-label="Close" data-dismiss-custom="modal"></span>
+              <h4 class="modal-title">View Vehicle Information</h4>
+            </div>
+            <div class="modal-body">
+              <!--/* div with Car detail Information start*/-->
+              <div class="featured-car-fac-for-mob ">
+                <h4>Minivan</h4>
+                <p class="feat-car-text-mob">Dodge Grand Caravan or similar </p>
+          <!---->
+        <!---->
+                <!--/* Coupon indicator at each level */-->
+                <!--p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===true" class="coupnelg"
+                  <span class="s-icon coupon-img"></span> Coupon Eligible </p>
+                <p ng-if="vm.response.reservationSummary.coupon && car.couponApplicable===false" class="coupon-eligible-sub No-coupon-img-text">
+                  <span class="s-icon No-coupon-img"></span> Coupon does not apply</p-->
+  
+                <div class="tableDiv">
+                  <!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='ns' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled"><span class="icon-smoke-free"></span> Smoke Free</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='seats' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" class="four-seats-feat"><span></span> 7 Seats</span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='doors' &amp;&amp; features.value!=0 &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-door-feat"><span></span> 5 Door </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='auto' &amp;&amp; features.value=='Y' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="four-automatic-feat"><span></span> Automatic </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div>
+                <div class="tableDiv">
+          <!----><div ng-if=" vm.response.reservationSummary.pickLoc.locationFleetType !='TRUCK' ">
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_large' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat"><span></span> 3  Large  Bags</span><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name==='Suitcases_small' &amp;&amp; features.caption!=='NA' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled &amp;&amp; !(vm.displayFeatures)" ng-class="features.cssClass" class="four-bags-feat-small"><span></span> 2  Small  Bags</span><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                </div><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='air' &amp;&amp; features.iconEnabled &amp;&amp; !features.filterEnabled" class="ac-seats-feat"><span></span> A/C </span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                  <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span ng-repeat="features in car.vehicleFeatures" ng-if="features.name.toLowerCase()==='mpg' &amp;&amp; features.iconEnabled &amp;&amp; features.caption!=='NA' &amp;&amp; features.value!=0 &amp;&amp; !features.filterEnabled" class="mpg-seats-feat"><span></span> 17  17 mpg</span><!----><!---->
+                </div>
+                <!----><p ng-if="!(vm.displayFeatures)"></p><!---->
+              </div>
+              <!--/* div with Car detail Information end*/-->
+            </div>
+          </div>
+          <!--/* Modal content end*/-->
+        </div>
+      </div>
+      <!--/* Modal for the car : END */-->
+      <!-- Enterprise captcha changes for Avis and Budget starts -->
+      <div data-sly-test="">
+        <!----><div ng-if="vm.enableEnterpriseCaptcha == 'true'" class="recaptcha-wrapper">
+            <div class="reCaptchaDiv"><div class="g-recaptcha ng-pristine ng-untouched ng-valid ng-empty" id="gRecaptcha_11" data-size="invisible" data-badge="inline" ng-model="vm.recaptcha" "=""></div></div>
+        </div><!---->  
+        </div> 
+      <!-- Enterprise captcha changes for Avis and Budget Ends -->
+				
+      <section>
+  </section></section></div>
+			</div><!---->
+		</div><!---->
+
+		
+
+		
+		
+		<!----><div class="unAvailCar" ng-if="vm.response.unavailableVehicles.length > 0 &amp;&amp; vm.pageName == carRentalConstant.step2PageName">
+			
+			<div class="clear"></div>
+			<div class="sectsptr"></div>
+			
+			<h2 data-toggle="collapse" id="res-vehicles-show-unavailable" data-target=".avialblecarsec" class="hdrunavailablecars">
+				Show Unavailable Vehicles <span class="s-icon red-down-arrow"></span>
+			</h2>
+			<p class="inquire-info">These car groups have limited or no inventory at this time. Call (1) 519-969-5611 to enquire as to availability. </p>
+			<div class="collapse avialblecarsec row">
+				<!----><div class=" col-xs-12 avilablecar" ng-repeat="car in vm.response.unavailableVehicles | orderBy : vm.pageControl.orderByUnavailable track by $index">
+					<div class="col-sm-7">
+						<div class="col-lg-7 col-sm-6 col-xs-12 avlcarimage avlcarimagetab">
+                            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/chrysler/2021-chrysler-300-s-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510"></div>
+						<div ng-class="{'dualPayOption':vm.response.postpayOnly}" class="col-sm-5 col-xs-12 avilcardtl">
+							<h3>Premium</h3>
+							<p class="featurecartxt ">Chrylser 300 or similar</p>
+							<!----><p ng-if="car.carAvailability=='S' " class="soldout ">
+								<span class="icon-soldOut"></span> Sold Out
+							</p><!---->
+							<!---->
+							<!---->
+							<!---->
+						</div>
+					</div>
+					<div class="clear border " ng-hide="$last "></div>
+				</div><!----><div class=" col-xs-12 avilablecar" ng-repeat="car in vm.response.unavailableVehicles | orderBy : vm.pageControl.orderByUnavailable track by $index">
+					<div class="col-sm-7">
+						<div class="col-lg-7 col-sm-6 col-xs-12 avlcarimage avlcarimagetab">
+                            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/ford/2021-ford-explorer-xlt-suv-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510"></div>
+						<div ng-class="{'dualPayOption':vm.response.postpayOnly}" class="col-sm-5 col-xs-12 avilcardtl">
+							<h3>Full-Size SUV</h3>
+							<p class="featurecartxt ">Ford Explorer or similar</p>
+							<!---->
+							<!----><p ng-if="car.carAvailability=='N' " class="soldout ">
+								<span class="icon-soldOut"></span>
+								Unavailable At This Location
+							</p><!---->
+							<!---->
+							<!---->
+						</div>
+					</div>
+					<div class="clear border " ng-hide="$last "></div>
+				</div><!----><div class=" col-xs-12 avilablecar" ng-repeat="car in vm.response.unavailableVehicles | orderBy : vm.pageControl.orderByUnavailable track by $index">
+					<div class="col-sm-7">
+						<div class="col-lg-7 col-sm-6 col-xs-12 avlcarimage avlcarimagetab">
+                            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2017/ram/2017-ram-1500-night-crew-pick-up-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510"></div>
+						<div ng-class="{'dualPayOption':vm.response.postpayOnly}" class="col-sm-5 col-xs-12 avilcardtl">
+							<h3>Full-Size Pickup Truck</h3>
+							<p class="featurecartxt ">Dodge Ram 1500 or similar</p>
+							<!---->
+							<!----><p ng-if="car.carAvailability=='N' " class="soldout ">
+								<span class="icon-soldOut"></span>
+								Unavailable At This Location
+							</p><!---->
+							<!---->
+							<!---->
+						</div>
+					</div>
+					<div class="clear border " ng-hide="$last "></div>
+				</div><!----><div class=" col-xs-12 avilablecar" ng-repeat="car in vm.response.unavailableVehicles | orderBy : vm.pageControl.orderByUnavailable track by $index">
+					<div class="col-sm-7">
+						<div class="col-lg-7 col-sm-6 col-xs-12 avlcarimage avlcarimagetab">
+                            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2019/hyundai/2019-hyundai-elantra-ltd-sedan-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510"></div>
+						<div ng-class="{'dualPayOption':vm.response.postpayOnly}" class="col-sm-5 col-xs-12 avilcardtl">
+							<h3>Special</h3>
+							<p class="featurecartxt ">Hyundai Elantra w/ Winter Tires or similar</p>
+							<!---->
+							<!----><p ng-if="car.carAvailability=='N' " class="soldout ">
+								<span class="icon-soldOut"></span>
+								Unavailable At This Location
+							</p><!---->
+							<!---->
+							<!---->
+						</div>
+					</div>
+					<div class="clear border " ng-hide="$last "></div>
+				</div><!----><div class=" col-xs-12 avilablecar" ng-repeat="car in vm.response.unavailableVehicles | orderBy : vm.pageControl.orderByUnavailable track by $index">
+					<div class="col-sm-7">
+						<div class="col-lg-7 col-sm-6 col-xs-12 avlcarimage avlcarimagetab">
+                            <img class="img-responsive" lazy-load="/content/dam/cars/xl/2021/gmc/2021-gmc-yukon-slt-suv-white.png" error-fallback-src="/etc/designs/budget/reservationlib/clientlib/images/image-unavailable.png" src="" car-model="car" car-class="vehicle-img" car-height="340" car-width="510"></div>
+						<div ng-class="{'dualPayOption':vm.response.postpayOnly}" class="col-sm-5 col-xs-12 avilcardtl">
+							<h3>Premium SUV</h3>
+							<p class="featurecartxt ">GMC Yukon or similar</p>
+							<!---->
+							<!----><p ng-if="car.carAvailability=='N' " class="soldout ">
+								<span class="icon-soldOut"></span>
+								Unavailable At This Location
+							</p><!---->
+							<!---->
+							<!---->
+						</div>
+					</div>
+					<div class="clear border  ng-hide" ng-hide="$last "></div>
+				</div><!---->
+			</div>
+		</div><!---->
+		
+
+
+	</div>

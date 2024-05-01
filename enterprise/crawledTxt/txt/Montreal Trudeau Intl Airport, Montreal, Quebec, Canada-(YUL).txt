@@ -1,0 +1,152 @@
+You Click. We Pick.
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Vehicle determined upon pick-up (Compact or Larger) or similar
+Automatic
+5 People
+2 Bags
+71.48
+
+Economy
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Chevrolet Spark or similar
+Automatic
+4 People
+2 Bags
+75.25
+
+Compact
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Nissan Versa or similar
+Automatic
+5 People
+2 Bags
+75.25
+
+Intermediate
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Kia Forte or similar
+Automatic
+5 People
+3 Bags
+80.29
+
+Standard
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Volkswagen Jetta or similar
+Automatic
+5 People
+4 Bags
+83.23
+
+Full Size
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Toyota Camry or similar
+Automatic
+5 People
+4 Bags
+83.23
+
+Premium
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Nissan Maxima or similar
+Automatic
+5 People
+4 Bags
+87.39
+
+Premium Special
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Audi A3 and BMW 2 Series Gran Coupe or similar
+Automatic
+5 People
+5 Bags
+87.39
+
+Luxury
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Audi A4 and BMW 3 Series or similar
+Automatic
+5 People
+4 Bags
+87.39
+
+Full Size Elite
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Audi A5 Sportback or similar
+Automatic
+5 People
+3 Bags
+95.73
+
+Compact SUV
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Toyota C-HR or similar
+Automatic
+5 People
+3 Bags
+95.79
+
+Compact SUV AWD
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Hyundai Kona AWD or similar
+Automatic
+5 People
+3 Bags
+96.80
+
+Intermediate SUV
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Toyota RAV4 or similar
+Automatic
+5 People
+4 Bags
+101.8
+
+Small Pickup
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Chevy Colorado or similar
+Automatic
+4 People
+3 Bags
+102.9
+
+1/2 Ton Pickup
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Chevrolet Siverado 1500 Crew Cab or similar
+Automatic
+5 People
+4 Bags
+103.9
+
+7 Passenger Minivan
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Dodge Grand Caravan or similar
+Automatic
+7 People
+5 Bags
+108.4
+
+Standard Elite SUV
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Audi Q3 or similar
+Automatic
+5 People
+3 Bags
+110.0
+
+Standard SUV
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Ford Edge or similar
+Automatic
+5 People
+5 Bags
+114.2
+
+Premium Elite SUV
+Pick up location: Montreal Trudeau Intl Airport, Montreal, Quebec, Canada-(YUL)
+Cadillac XT5 or similar
+Automatic
+5 People
+4 Bags
+125.6
+

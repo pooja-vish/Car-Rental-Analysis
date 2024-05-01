@@ -1,0 +1,96 @@
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Economy
+Mitsubishi Mirage or similar
+C$73.83 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+35 mpg
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Compact
+Nissan Versa or similar
+C$73.83 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+29 MPG
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Intermediate
+Hyundai Elantra or similar
+C$73.83 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Standard
+Chevrolet Malibu or similar
+C$77.61 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Full-Size
+Chevrolet Malibu or similar
+C$77.61 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+22 mpg
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Intermediate SUV
+Ford Escape or similar
+C$86.39 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+22 mpg
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Standard SUV
+Ford Edge or similar
+C$88.91 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+20 mpg
+
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Luxury
+Chrylser 300S or similar
+C$90.16 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+21 mpg
+

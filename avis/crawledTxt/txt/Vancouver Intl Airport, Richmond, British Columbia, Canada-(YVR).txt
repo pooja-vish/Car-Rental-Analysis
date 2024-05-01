@@ -1,0 +1,209 @@
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Intermediate SUV
+Ford Escape or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+1 Small Bag
+C$49.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Economy
+Mitsubishi Mirage or similar
+4 Door
+4 seats
+A/C
+Automatic
+1 Large Bag
+1 Small Bag
+C$37.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Compact
+Nissan Versa or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$37.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Mystery Car
+Mystery Car or similar
+
+
+A/C
+Automatic
+
+
+C$39.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Intermediate
+Hyundai Elantra or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$40.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard
+Chevrolet Malibu or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$45.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Full-Size
+Chevrolet Malibu or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$45.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Full-Size Pickup
+Ford F150 Pick Up or similar
+4 Door
+5 seats
+A/C
+Automatic
+4 Large Bags
+
+C$50.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Special
+Hyundai Elantra (Winter Tires) or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$65.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Standard SUV
+Ford Edge or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$65.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Special Sport
+Jeep Wrangler or similar
+4 Door
+4 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$65.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Minivan
+Dodge Grand Caravan or similar
+4 Door
+7 seats
+A/C
+Automatic
+3 Large Bags
+2 Small Bags
+C$68.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Premium
+Chrysler 300 or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$70.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Avis Signature Series
+BMW X1 or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$74.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Luxury
+Chrysler 300S or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$75.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Avis Signature Series
+Audi Q5 or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$75.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Full-Size SUV
+Ford Explorer or similar
+4 Door
+7 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$80.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Avis Signature Series
+BMW X5 or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$105.00
+
+Pick up location: Vancouver Intl Airport, Richmond, British Columbia, Canada-(YVR)
+Avis Signature Series
+Tesla Model Y or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$105.00
+

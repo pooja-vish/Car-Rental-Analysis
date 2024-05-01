@@ -1,0 +1,209 @@
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Intermediate SUV
+Ford Escape or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+1 Small Bag
+C$48.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Standard
+Chevrolet Malibu or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$42.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Full-Size
+Chevrolet Malibu or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$42.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Intermediate
+Hyundai Elantra or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$43.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Full-Size Pickup
+Ford F150 Pick Up or similar
+4 Door
+5 seats
+A/C
+Automatic
+4 Large Bags
+
+C$45.15
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Mystery Car
+Mystery Car or similar
+
+
+A/C
+Automatic
+
+
+C$54.88
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Economy
+Mitsubishi Mirage or similar
+4 Door
+4 seats
+A/C
+Automatic
+1 Large Bag
+1 Small Bag
+C$55.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Compact
+Nissan Versa or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$56.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Premium
+Chrysler 300 or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$60.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Avis Signature Series
+BMW X1 or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$63.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Luxury
+Chrysler 300S or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$65.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Standard SUV
+Ford Edge or similar
+4 Door
+5 seats
+A/C
+Automatic
+2 Large Bags
+2 Small Bags
+C$71.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Avis Signature Series
+Hyundai Kona EV or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$75.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Avis Signature Series
+Tesla Model Y or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$75.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Minivan
+Dodge Grand Caravan or similar
+4 Door
+7 seats
+A/C
+Automatic
+3 Large Bags
+2 Small Bags
+C$80.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Avis Signature Series
+Audi Q5 or similar
+4 Door
+5 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$81.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Special Sport
+Jeep Wrangler or similar
+4 Door
+4 seats
+A/C
+Automatic
+1 Large Bag
+2 Small Bags
+C$81.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Full-Size SUV
+Ford Explorer or similar
+4 Door
+7 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$105.00
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Avis Signature Series
+Audi Q7 or similar
+4 Door
+7 seats
+A/C
+Automatic
+1 Large Bag
+3 Small Bags
+C$155.00
+

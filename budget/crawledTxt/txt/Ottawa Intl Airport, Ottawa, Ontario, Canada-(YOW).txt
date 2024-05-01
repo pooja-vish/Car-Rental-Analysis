@@ -1,0 +1,156 @@
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Intermediate SUV
+Ford Escape or similar
+C$74.51 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+22 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Economy
+Mitsubishi Mirage or similar
+C$50.86 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+35 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Compact
+Nissan Versa or similar
+C$65.05 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+29 MPG
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Full-Size Pickup Truck
+Dodge Ram 1500 or similar
+C$65.29 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+16 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Intermediate
+Hyundai Elantra or similar
+C$68.60 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Standard
+Chevrolet Malibu or similar
+C$69.79 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Full Size
+Toyota Camry or similar
+C$69.79 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+29 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Mystery Car
+Mystery Car May Be Gas Hybrid or EV or similar
+C$73.33 TotalSmoke Free
+2/4 Doors
+4 seats
+Automatic
+A/C
+
+
+
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Luxury
+Chrylser 300S or similar
+C$79.25 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+21 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Standard SUV
+Ford Edge or similar
+C$79.25 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+20 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Standard Elite
+Audi Q5 or similar
+C$91.07 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+24 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Full-Size SUV
+Ford Explorer or similar
+C$173.85 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+20 mpg
+
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Minivan
+Dodge Grand Caravan or similar
+C$173.85 TotalSmoke Free
+5 Doors
+7 seats
+Automatic
+A/C
+3 Large Bags
+2 Small Bags
+17 mpg
+

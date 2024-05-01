@@ -1,0 +1,240 @@
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Intermediate SUV
+Ford Escape or similar
+C$54.65 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+22 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Intermediate Electric
+Hyundai Kona EV or similar
+C$89.42 Total
+
+
+
+
+
+
+
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Intermediate
+Hyundai Elantra or similar
+C$45.61 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Full-Size Pickup Truck
+Dodge Ram 1500 or similar
+C$47.65 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+16 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Standard
+Chevrolet Malibu or similar
+C$48.27 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+28 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Full-Size
+Chevrolet Malibu or similar
+C$48.27 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+22 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Mystery Car
+Mystery Car May Be Gas Hybrid or EV or similar
+C$61.99 TotalSmoke Free
+2/4 Doors
+4 seats
+Automatic
+A/C
+
+
+
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Economy
+Mitsubishi Mirage or similar
+C$62.09 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+1 Small Bag
+35 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Compact
+Nissan Versa or similar
+C$63.16 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+29 MPG
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Premium
+Chrylser 300 or similar
+C$68.48 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+23 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Intermediate Elite SUV
+BMW X1 or similar
+C$70.60 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+22 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Luxury
+Chrylser 300S or similar
+C$73.79 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+21 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Standard SUV
+Ford Edge or similar
+C$84.90 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+2 Large Bags
+2 Small Bags
+20 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Standard Elite Electric
+Tesla Model Y or similar
+C$94.40 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Minivan
+Dodge Grand Caravan or similar
+C$89.74 TotalSmoke Free
+5 Doors
+7 seats
+Automatic
+A/C
+3 Large Bags
+2 Small Bags
+17 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Standard Elite
+Audi Q5 or similar
+C$95.26 TotalSmoke Free
+4 Doors
+5 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+24 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Special Sport
+Jeep Wrangler or similar
+C$96.20 TotalSmoke Free
+4 Doors
+4 seats
+Automatic
+A/C
+1 Large Bag
+2 Small Bags
+17 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Full-Size SUV
+Ford Explorer or similar
+C$104.64 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+20 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Premium SUV
+GMC Yukon or similar
+C$158.88 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+3 Large Bags
+2 Small Bags
+15 mpg
+
+Pick up location: Toronto Pearson Intl Airport, Mississauga, Ontario, Canada-(YYZ)
+Luxury SUV
+Audi Q7 or similar
+C$208.07 TotalSmoke Free
+4 Doors
+7 seats
+Automatic
+A/C
+1 Large Bag
+3 Small Bags
+19 mpg
+

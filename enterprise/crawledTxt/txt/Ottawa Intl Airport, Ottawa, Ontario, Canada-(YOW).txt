@@ -1,0 +1,176 @@
+Economy
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Chevrolet Spark or similar
+Automatic
+4 People
+2 Bags
+58.78
+
+You Click. We Pick.
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Vehicle determined upon pick-up (Compact or Larger) or similar
+Automatic
+5 People
+2 Bags
+70.32
+
+Compact
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Nissan Versa or similar
+Automatic
+5 People
+2 Bags
+70.32
+
+Intermediate
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Kia Forte or similar
+Automatic
+5 People
+3 Bags
+70.32
+
+Compact SUV
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Toyota C-HR or similar
+Automatic
+5 People
+3 Bags
+72.03
+
+Standard
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Volkswagen Jetta or similar
+Automatic
+5 People
+4 Bags
+74.03
+
+Full Size
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Toyota Camry or similar
+Automatic
+5 People
+4 Bags
+74.03
+
+Compact SUV AWD
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Hyundai Kona AWD or similar
+Automatic
+5 People
+3 Bags
+74.03
+
+Premium
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Nissan Maxima or similar
+Automatic
+5 People
+4 Bags
+74.03
+
+Small Pickup
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Chevy Colorado or similar
+Automatic
+4 People
+3 Bags
+74.03
+
+1/2 Ton Pickup
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Chevrolet Siverado 1500 Crew Cab or similar
+Automatic
+5 People
+4 Bags
+74.03
+
+Intermediate SUV
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Toyota RAV4 or similar
+Automatic
+5 People
+4 Bags
+75.27
+
+Luxury
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Audi A4 and BMW 3 Series or similar
+Automatic
+5 People
+4 Bags
+79.03
+
+Premium Special
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Audi A3 and BMW 2 Series Gran Coupe or similar
+Automatic
+5 People
+5 Bags
+80.04
+
+Standard Elite SUV
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Audi Q3 or similar
+Automatic
+5 People
+3 Bags
+80.25
+
+Full Size Elite
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Audi A5 Sportback or similar
+Automatic
+5 People
+3 Bags
+82.03
+
+Premium Elite SUV
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Cadillac XT5 or similar
+Automatic
+5 People
+4 Bags
+82.25
+
+Standard SUV
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Ford Edge or similar
+Automatic
+5 People
+5 Bags
+82.65
+
+Intermediate Car with Winter Tires
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Hyundai Elantra w/ Winter Tires or similar
+Automatic
+5 People
+3 Bags
+85.32
+
+Premium Crossover
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Dodge Durango or similar
+Automatic
+7 People
+3 Bags
+132.8
+
+7 Passenger Minivan
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Dodge Grand Caravan or similar
+Automatic
+7 People
+5 Bags
+143.1
+
+Full Size SUV
+Pick up location: Ottawa Intl Airport, Ottawa, Ontario, Canada-(YOW)
+Chevy Tahoe or similar
+Automatic
+7 People
+3 Bags
+156.3
+

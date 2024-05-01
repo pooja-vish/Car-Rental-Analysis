@@ -1,0 +1,160 @@
+You Click. We Pick.
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Vehicle determined upon pick-up (Compact or Larger) or similar
+Automatic
+5 People
+2 Bags
+68.57
+
+Compact SUV
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Toyota C-HR or similar
+Automatic
+5 People
+3 Bags
+69.28
+
+Compact
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Nissan Versa or similar
+Automatic
+5 People
+2 Bags
+69.54
+
+Economy
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Chevrolet Spark or similar
+Automatic
+4 People
+2 Bags
+69.55
+
+Intermediate
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Kia Forte or similar
+Automatic
+5 People
+3 Bags
+69.55
+
+Compact SUV AWD
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Hyundai Kona AWD or similar
+Automatic
+5 People
+3 Bags
+71.79
+
+Full Size
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Toyota Camry or similar
+Automatic
+5 People
+4 Bags
+73.04
+
+Standard
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Volkswagen Jetta or similar
+Automatic
+5 People
+4 Bags
+73.08
+
+Small Pickup
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Chevy Colorado or similar
+Automatic
+4 People
+3 Bags
+76.82
+
+Premium
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Nissan Maxima or similar
+Automatic
+5 People
+4 Bags
+79.33
+
+1/2 Ton Pickup
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Chevrolet Siverado 1500 Crew Cab or similar
+Automatic
+5 People
+4 Bags
+79.33
+
+Premium Special
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Audi A3 and BMW 2 Series Gran Coupe or similar
+Automatic
+5 People
+5 Bags
+81.21
+
+Intermediate SUV
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Toyota RAV4 or similar
+Automatic
+5 People
+4 Bags
+81.35
+
+Full Size Elite
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Audi A5 Sportback or similar
+Automatic
+5 People
+3 Bags
+81.83
+
+Luxury
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Audi A4 and BMW 3 Series or similar
+Automatic
+5 People
+4 Bags
+86.86
+
+Standard SUV
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Ford Edge or similar
+Automatic
+5 People
+5 Bags
+88.87
+
+Jeep Wrangler 4 door
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Jeep Wrangler Unlimited or similar
+Automatic
+5 People
+5 Bags
+97.67
+
+Premium Crossover
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Dodge Durango or similar
+Automatic
+7 People
+3 Bags
+107.0
+
+7 Passenger Minivan
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Dodge Grand Caravan or similar
+Automatic
+7 People
+5 Bags
+112.6
+
+Full Size SUV
+Pick up location: Windsor Airport, Windsor, Ontario, Canada-(YQG)
+Chevy Tahoe or similar
+Automatic
+7 People
+3 Bags
+123.9
+
